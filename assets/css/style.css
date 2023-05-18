@@ -372,6 +372,7 @@ main {
 }
 
 .info_more-btn {
+  transition: 0.4s;
   position: absolute;
   top: -15px;
   right: -15px;
@@ -386,6 +387,7 @@ main {
 }
 
 .info_more-btn::before {
+  transition: 0.4s;
   content: "";
   position: absolute;
   inset: 1px;
@@ -393,26 +395,38 @@ main {
   background: var(--bg-gradient-jet);
   transition: var(--transition-1);
   z-index: -1;
+  transition: 0.4s;
+
 }
 
 .info_more-btn:hover,
 .info_more-btn:focus {
+  transition: 0.4s;
+
   background: var(--bg-gradient-yellow-1);
 }
 
 .info_more-btn:hover::before,
 .info_more-btn:focus::before {
+  transition: 0.4s;
+
   background: var(--bg-gradient-yellow-2);
 }
 
 .info_more-btn span {
+  transition: 0.4s;
+
   display: none;
 }
 
 .sidebar-info_more {
+  transition: 0.4s;
+
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-2);
+  transition: 0.4s;
+
 }
 
 .sidebar.active .sidebar-info_more {
@@ -2093,7 +2107,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .mycv {
-  margin-left: 63px;
+  /* margin-left: 14%; */
   background: none;
   border: none;
   cursor: pointer;
