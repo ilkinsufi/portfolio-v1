@@ -396,7 +396,6 @@ main {
   transition: var(--transition-1);
   z-index: -1;
   transition: 0.4s;
-
 }
 
 .info_more-btn:hover,
@@ -426,7 +425,6 @@ main {
   visibility: hidden;
   transition: var(--transition-2);
   transition: 0.4s;
-
 }
 
 .sidebar.active .sidebar-info_more {
@@ -2107,7 +2105,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .mycv {
-  /* margin-left: 14%; */
+  margin-left: 62px;
   background: none;
   border: none;
   cursor: pointer;
@@ -2140,3 +2138,30 @@ textarea.form-input::-webkit-resizer {
 /* .mycv:hover{
   transform: scale(0.9);
 } */
+@media (max-width: 580px) {
+  /**
+   * CUSTOM PROPERTY
+   */
+  .mycv {
+    margin-left: 43px !important;
+    padding: 0.4em 0.8em;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 98%);
+  margin-top: 40px;
+  /* top: 50%; */
+  /* left: 50%; */
+  width: fit-content;
+  height: auto;
+  cursor: pointer;
+  font-weight: 300;
+  /* background-color: rgba(240, 230, 140, 0.247); */
+  /* padding: 5px 15px; */
+  /* border-radius: 11px; */
+  /* background-color: rgb(77, 66, 34); */
+  font-size: 14px;
+  transition: 0.4s;
+  }
+}
