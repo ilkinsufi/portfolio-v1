@@ -8,7 +8,7 @@ const elementToggleFunc = function (elem) {
 function downloadcv() {
   console.log("salam");
   window.location.href =
-    "https://drive.google.com/uc?export=download&id=1v1euK_mmUyzSfWt3ja-7tJWqruRUfm2j";
+    "https://drive.google.com/uc?export=download&id=1tbm4rY_IFjUHrejFaucTLpzbcCSZOEDU";
 }
 
 // sidebar variables
