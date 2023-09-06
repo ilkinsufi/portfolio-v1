@@ -7,10 +7,10 @@ const elementToggleFunc = function (elem) {
 
 function downloadcv() {
   console.log("salam");
-  window.location.href =
-    // "https://drive.google.com/uc?export=download&id=1tbm4rY_IFjUHrejFaucTLpzbcCSZOEDU";
-    // "https://drive.google.com/file/d/12DtNx_72EkJg1-I61f1RxfC8VMeAypkJ/view?usp=sharing";
-    "https://drive.google.com/file/d/12DtNx_72EkJg1-I61f1RxfC8VMeAypkJ/view";
+  window.open(
+    "https://drive.google.com/file/d/1_Se-d6DzG3q60gZtqhXmi9OqPoQqAQaP/view?usp=sharing",
+    "_blank" // This parameter opens the link in a new tab/window
+  );
 }
 
 // sidebar variables
