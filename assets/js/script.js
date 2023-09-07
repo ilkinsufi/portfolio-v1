@@ -8,8 +8,7 @@ const elementToggleFunc = function (elem) {
 function downloadcv() {
   console.log("salam");
   window.open(
-    "https://drive.google.com/file/d/1_Se-d6DzG3q60gZtqhXmi9OqPoQqAQaP/view?usp=sharing",
-    "_blank" // This parameter opens the link in a new tab/window
+    "https://drive.google.com/file/d/1xMzU_E9v0tNozKOTSpaaTg7EOdlE0Ywi/view?usp=sharing" // This parameter opens the link in a new tab/window
   );
 }
 
